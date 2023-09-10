@@ -164,7 +164,8 @@ class ObjScan():
         else:
             out = f"objscan_kmalloc_{slab}"
         if self.in_file:
-            out = f"{out}_for_{self.in_file}.txt"
+            fname = os.path.basename(self.in_file)
+            out = f"{out}_for_{fname}.txt"
         else:
             out = f"{out}.txt"
         return out

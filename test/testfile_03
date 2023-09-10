@@ -1,0 +1,15 @@
+user_namespace	624	2
+hrtimer_cpu_base	576	0
+dev_ifalias	16	0
+list_head	16	0
+file_system_type	72	1
+net_device_ops	704	0
+xdp_metadata_ops	16	0
+neighbour	400	1
+neigh_table	600	1
+inet6_dev	1048	2
+nfs_renamedata	888	0
+svc_rqst	11392	1
+xdp_md	24	0
+pcpu_lstats	16	0
+pcpu_sw_netstats	32	0
